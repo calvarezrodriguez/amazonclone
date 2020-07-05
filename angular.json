@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "AngularClone"
+    }
+  },
+  "defaultProject": "AngularClone",
+  "cli": {
+    "analytics": false
+  }
 }

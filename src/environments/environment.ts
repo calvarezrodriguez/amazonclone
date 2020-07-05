@@ -3,7 +3,21 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  ApiEndpoint: 'http://localhost:3030/api/',
+  Address: 'accounts/address/',
+  Login: 'accounts/login/',
+  Singup: 'accounts/singup/',
+  Profile: 'accounts/profile/',
+  Categories: 'categories/',
+  Products: 'seller/products',
+  Product: 'products/',
+  Review: 'review/',
+  Search: 'search?query=',
+  Payment: 'payment',
+  Orders: 'accounts/orders/',
+  StripeKey:
+    'pk_test_51GwsnKCAbClsdLY01sKZ5DYP9sxFYtokZI5HsQqawqGMYtSFMGqu7Z6MtXNTnFUhlfwdIgaspHNfyRIFjl7cfLnj00eebVBtPR',
 };
 
 /*
